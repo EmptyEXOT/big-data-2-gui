@@ -1,0 +1,35 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+
+.questionWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  border: solid 2px black;
+  margin: 16px 0;
+  padding: 16px;
+  width: 100%;
+
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.btnsWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.questionsGroupWrapper {
+  display: flex;
+  gap: 16px;
+}
