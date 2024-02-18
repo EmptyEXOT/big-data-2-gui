@@ -1,0 +1,20 @@
+.animalCard {
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+}
+
+.valid {
+  background-color: #91ea91;
+}
+
+.invalid {
+  background-color: #ff7676;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
